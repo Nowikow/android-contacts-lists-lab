@@ -12,5 +12,7 @@ public class ContactType {
 
     public static String[] getContactTypes() {
         // метод должен возвращать массив строк, перечисленных выше
+        String[] contactArray = {TELEGRAM, WHATS_APP, VIBER, THREEMA, PHONE, EMAIL};
+        return contactArray;
     }
 }
